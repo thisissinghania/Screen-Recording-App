@@ -1,0 +1,5 @@
+.time_counter_modal .ant-modal-content {
+  background: transparent !important;
+  box-shadow: none !important;
+  margin-left: 4rem;
+}

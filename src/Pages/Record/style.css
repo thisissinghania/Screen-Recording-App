@@ -1,0 +1,109 @@
+:where(.css-dev-only-do-not-override-pr0fja).ant-float-btn-default
+  .ant-float-btn-body:hover {
+  background-color: white;
+  opacity: 0.9;
+}
+
+.ant-btn-primary {
+  background-color: #1677ff !important;
+}
+
+
+.pa_container {
+  width: 380px;
+  border-top: 1px solid lightgray;
+  /* border-radius: 8px; */
+  padding: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.pa_radio_icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.pa_radio_label {
+  font-size: 12px;
+  white-space: nowrap;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.pa_quality_label {
+  margin-top: 1.25rem;
+  text-align: start;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.pa_quality_btn {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.pa_recording_start_btn {
+  font-size: 15px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.pa_model_label {
+  font-size: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* my chnages */
+
+.head-title {
+  color: black;
+  padding: 10px;
+}
+.activeLabel,
+.ls_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-top: 10px;
+}
+.setting-section {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin: 15px 0px;
+  padding-bottom: 15px;
+}
+
+.ls_container {
+  margin-top: 1.25rem;
+  text-align: center;
+  font-family: SF Pro Text;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+.record-btn {
+  width: 100%;
+  height: Fixed (60px);
+  padding: 12px 32px 12px 32px;
+  background-color: rgba(255, 77, 79, 1) !important ;
+  color: rgba(255, 255, 255, 1);
+}
+
+.record-btn:hover {
+  background-color: rgba(255, 120, 117, 1) !important ;
+  border: 1px solid rgba(255, 120, 117, 1) !important;
+  color: rgba(255, 255, 255, 1) !important ;
+
+}

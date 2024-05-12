@@ -1,0 +1,314 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  height: 100vh;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  /* min-height: 100vh; */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.web_container_body::-webkit-scrollbar {
+  width: 0px;
+}
+
+.web_container_body::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.web_container_body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.web_h-screen {
+  height: 100vh;
+}
+
+/* custom updated css */
+
+.web_container {
+  padding: 0px;
+  border-radius: 36px;
+  border: none;
+  height: 564px;
+  max-width: 380px;
+}
+.header-container {
+  padding: 20px 25px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.header-container .icons .header-btn {
+  margin-right: 0;
+  margin-left: 8px;
+}
+.header-content {
+  padding: 0px;
+}
+.panel-block {
+  padding: 25px;
+}
+.panel-block .head-title {
+  padding: 0px;
+}
+.panel-block .head-title h3 {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #002027;
+}
+.all-cinema-buttons {
+  margin: 14px 0;
+}
+.all-cinema-buttons > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+.all-cinema-buttons > div button {
+  width: 33.33%;
+  padding: 10px !important;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+}
+.all-cinema-buttons > div button img {
+  width: auto;
+  max-width: 100%;
+  margin: 0px;
+  opacity: 0.4;
+  border-radius: 0px;
+}
+.all-cinema-buttons > div button.ant-btn-black {
+  background-color: #002027;
+}
+.all-cinema-buttons > div button.ant-btn-black img {
+  filter: invert(100%);
+  opacity: 1;
+}
+.panel-block .head-title.font-weight-normal h3 {
+  font-weight: 400;
+}
+.panel-block .setting-section {
+  border-color: rgba(0, 0, 0, 0.1);
+  margin: 30px 0 15px;
+}
+.panel-block .setting-section .ls_container {
+  margin-top: 15px;
+}
+.panel-block .setting-section .custom-dropdown {
+  margin-top: 15px;
+}
+.setting-section .custom-dropdown .status {
+  font-size: 12px;
+}
+.setting-section .custom-dropdown .status.deactive-text {
+  background: #ffe0e0;
+  border-color: #c41a1a;
+}
+.setting-section .custom-dropdown .selected-option {
+  margin: 0;
+  height: 60px;
+  padding: 10px 15px;
+  background: #fff;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+}
+.setting-section .custom-dropdown .selected-option span {
+  margin: 0 6px 0 10px;
+  font-size: 14px;
+}
+.setting-section .custom-dropdown .selected-option svg {
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+}
+.setting-section .custom-dropdown.open-dropdown {
+  border: none;
+}
+.setting-section .custom-dropdown.open-dropdown .selected-option {
+  border-radius: 36px 36px 0 0;
+  border-color: #002027;
+  background: #f5f5f5;
+}
+.custom-dropdown .options {
+  border: 1px solid #002027;
+  margin-top: -1px;
+  border-radius: 0 0 36px 36px;
+  padding: 12px 20px;
+  background: #f5f5f5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+.custom-dropdown .options .options-inside {
+  padding: 0;
+  border: none;
+  width: 100%;
+}
+.custom-dropdown .options .options-inside + .options-inside {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #d9d9d9;
+}
+.custom-dropdown .options .options-inside .option-text {
+  width: 100%;
+  border: 1px solid transparent;
+  color: rgba(0, 0, 0, 0.65);
+}
+.custom-dropdown .options .options-inside .option-text span svg {
+  width: 18px;
+  height: 18px;
+}
+.custom-dropdown .options .options-inside .option-text .checkTag {
+  opacity: 0;
+}
+.custom-dropdown .options .options-inside .option-text:hover {
+  border-color: #002027;
+  color: #002027;
+}
+.custom-dropdown .options .options-inside .option-text.selected-option-text {
+  color: rgba(82, 196, 26, 1);
+}
+.custom-dropdown
+  .options
+  .options-inside
+  .option-text.selected-option-text:hover {
+  border-color: transparent;
+}
+.custom-dropdown .options .options-inside .option-text:hover .checkTag,
+.custom-dropdown
+  .options
+  .options-inside
+  .option-text.selected-option-text
+  .checkTag {
+  opacity: 1;
+}
+.panel-block .record-btn {
+  height: 60px;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2);
+  color: #fff !important;
+}
+.panel-block-recordings {
+  padding: 25px;
+}
+.web_container_body_recording {
+  height: 394px;
+}
+.panel-block-recordings .title {
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.web_container_body_recording .record-title > p {
+  padding: 0;
+}
+.setting-part {
+  padding: 25px;
+}
+.setting-part h2.title {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0;
+}
+.setting-part .select-quality {
+  margin: 15px 0;
+}
+.setting-part .select-quality > p {
+  padding: 0;
+  font-weight: 300;
+  font-size: 14px;
+}
+.setting-part .select-quality .ant-select .ant-select-selector {
+  text-align: left;
+}
+.setting-part .switch-label .switch-btn {
+  padding: 0;
+}
+.setting-part .switch-label .switch-description {
+  padding: 0;
+  margin: 10px 0 25px;
+  text-align: left;
+  opacity: 0.6;
+  font-size: 12px;
+}
+.setting-part .switch-label .switch-btn button.ant-switch {
+  background: rgb(214, 214, 214);
+}
+.setting-part .switch-label .switch-btn button.ant-switch.ant-switch-checked {
+  background: #1677ff;
+}
+.setting-part .switch-label .switch-btn > p {
+  font-size: 14px;
+}

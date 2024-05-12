@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('SFProText-Heavy.eot');
+    src: url('SFProText-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('SFProText-Heavy.woff2') format('woff2'),
+        url('SFProText-Heavy.woff') format('woff'),
+        url('SFProText-Heavy.ttf') format('truetype'),
+        url('SFProText-Heavy.svg#SFProText-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

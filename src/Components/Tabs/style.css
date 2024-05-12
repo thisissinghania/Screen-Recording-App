@@ -1,0 +1,51 @@
+
+  .controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+ .start-at,.players-controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .checkbox-text{
+    margin: 0px 5px;
+    width: -webkit-fill-available;
+  }
+  .controls{
+    padding: 10px 0px;
+  }
+
+  .link{
+    margin-top: 20px;
+  }
+.link,.socila-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .embed-code{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .embed-code > button {
+    margin-left: 10px;
+  }
+
+ .social-icon-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+  }
+

@@ -1,0 +1,134 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  background-color: whitesmoke;
+  font-family: 'SF Pro Text';
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../public/fonts/bold/SFProText-Bold.eot');
+  src: url('../public/fonts/bold/SFProText-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../public/fonts/bold/SFProText-Bold.woff2') format('woff2'),
+    url('../public/fonts/bold/SFProText-Bold.woff') format('woff'),
+    url('../public/fonts/bold/SFProText-Bold.ttf') format('truetype'),
+    url('../public/fonts/bold/SFProText-Bold.svg#SFProText-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../public/fonts/heavy/SFProText-Heavy.eot');
+  src: url('../public/fonts/heavy/SFProText-Heavy.eot?#iefix')
+      format('embedded-opentype'),
+    url('../public/fonts/heavy/SFProText-Heavy.woff2') format('woff2'),
+    url('../public/fonts/heavy/SFProText-Heavy.woff') format('woff'),
+    url('../public/fonts/heavy/SFProText-Heavy.ttf') format('truetype'),
+    url('../public/fonts/heavy/SFProText-Heavy.svg#SFProText-Heavy')
+      format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../public/fonts/light/SFProText-Light.eot');
+  src: url('../public/fonts/light/SFProText-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('../public/fonts/light/../public/fonts/heavy/SFProText-Light.woff2')
+      format('woff2'),
+    url('../public/fonts/light/SFProText-Light.woff') format('woff'),
+    url('../public/fonts/light/SFProText-Light.ttf') format('truetype'),
+    url('../public/fonts/light/SFProText-Light.svg#SFProText-Light')
+      format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../public/fonts/medium/SFProText-Medium.eot');
+  src: url('../public/fonts/medium/SFProText-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('../public/fonts/medium/SFProText-Medium.woff2') format('woff2'),
+    url('../public/fonts/medium/SFProText-Medium.woff') format('woff'),
+    url('../public/fonts/medium/SFProText-Medium.ttf') format('truetype'),
+    url('../public/fonts/medium/SFProText-Medium.svg#SFProText-Medium')
+      format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../public/fonts/regular/SFProText-Regular.eot');
+  src: url('../public/fonts/regular/SFProText-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../public/fonts/regular/SFProText-Regular.woff2') format('woff2'),
+    url('../public/fonts/regular/SFProText-Regular.woff') format('woff'),
+    url('../public/fonts/regular/SFProText-Regular.ttf') format('truetype'),
+    url('../public/fonts/regular/SFProText-Regular.svg#SFProText-Regular')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../public/fonts/semibold/SFProText-Semibold.eot');
+  src: url('../public/fonts/semibold/SFProText-Semibold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../public/fonts/semibold/SFProText-Semibold.woff2') format('woff2'),
+    url('../public/fonts/semibold/SFProText-Semibold.woff') format('woff'),
+    url('../public/fonts/semibold/SFProText-Semibold.ttf') format('truetype'),
+    url('../public/fonts/semibold/SFProText-Semibold.svg#SFProText-Semibold')
+      format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

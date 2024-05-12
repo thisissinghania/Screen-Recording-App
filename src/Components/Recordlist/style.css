@@ -1,0 +1,33 @@
+.recoding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 0px;
+  margin-top: 5px;
+}
+
+.record-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.record-title > p {
+  padding-left: 10px;
+  font-weight: 400;
+  color: black;
+  text-align: justify;
+}
+
+.larger-icon {
+  font-size: 16px;
+  color: black;
+}
+
+.prevRecord{
+  height:50px;
+  width: 80px;
+  border:1px solid lightgray
+}

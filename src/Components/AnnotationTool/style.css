@@ -1,0 +1,102 @@
+.color_picker .ant-float-btn-icon {
+  width: 100% !important;
+}
+
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+.wd_ext_variation_wapper .ant-float-btn-group-wrap {
+  display: flex !important;
+  gap: 10px !important;
+}
+.ant-float-btn-default .ant-float-btn-body:hover .ant-float-btn-icon {
+  color: rgb(255 255 255 / 88%) !important;
+}
+
+.ant-popover {
+  z-index: 99999 !important;
+}
+
+.wd_ext_pause_btn .ant-float-btn-body {
+  background-color: rgba(255, 77, 79, 1) !important;
+}
+.wd_ext_pause_btn .ant-float-btn-body:hover {
+  background-color: rgba(255, 120, 117, 1) !important;
+  border-radius: 100px !important;
+}
+.wd_ext_pause_btn .ant-float-btn-body,
+.wd_ext_pause_btn,
+.wd_ext_pause_btn .ant-float-btn-body:hover,
+.wd_ext_pause_btn .ant-float-btn-content {
+  width: 100px !important;
+  height: 40px !important;
+  border-radius: 100px !important;
+}
+.wd_ext_pause_btn .ant-float-btn-body:hover .ant-float-btn-icon,
+.wd_ext_pause_btn .ant-float-btn-body .ant-float-btn-icon,
+.wd_ext_pause_btn .ant-float-btn-content .ant-float-btn-icon {
+  color: #fff !important;
+  font-size: 16px !important;
+  width: auto !important;
+}
+.wd_ext_pause_btn {
+  margin-bottom: 0 !important;
+}
+.wd_ext_timmer_stoper .ant-float-btn-icon {
+  flex-shrink: 0 !important;
+}
+.wd_ext_timmer {
+  margin-left: 10px;
+}
+
+.wd_ext_variation_wapper .ant-float-btn-group-wrap {
+  border-left: 1px solid #ddd !important;
+  margin-left: 10px;
+  padding-left: 15px;
+  margin-bottom: 0 !important;
+}
+/* .wd_ext_variation_wapper .ant-float-btn-group-wrap .ant-float-btn-circle, */
+.wd_ext_variation_wapper .ant-float-btn-body {
+  /* height: 36px!important;
+  width: 36px!important; */
+  border: solid 2px #ddd;
+}
+.wd_ext_variation_wapper .ant-float-btn-body:hover {
+  background-color: #fff !important;
+}
+.wd_ext_variation_wapper .ant-float-btn-body:hover .ant-float-btn-icon {
+  color: #0f0f0f !important;
+}
+.wd_ext_variation_wapper .ant-float-btn-body:focus {
+  background-color: #0f0f0f !important;
+  /* border: solid 2px #0f0f0f !important; */
+}
+.wd_ext_variation_wapper .ant-float-btn-body:focus .ant-float-btn-icon {
+  color: #fff !important;
+}
+.colorpicker {
+  position: relative;
+}
+.colorpicker .ant-color-picker-trigger {
+  position: absolute;
+  left: -6px;
+  right: 0;
+  width: 32px;
+  height: 32px;
+  top: -4px;
+  opacity: 0;
+}
+.wd_ext_variation_wapper .ant-float-btn-body {
+  width: 40px !important;
+  height: 40px !important;
+  gap: 10px !important;
+}
+
+.wd_ext_variation_wapper > div > button:focus {
+  outline: none;
+  background-color: #002027;
+  color: #fff;
+}
+.wd_ext_variation_wapper > button:focus {
+  outline: none;
+}
